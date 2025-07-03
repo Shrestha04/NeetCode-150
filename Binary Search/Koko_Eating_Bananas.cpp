@@ -7,7 +7,6 @@ public:
 
         while (l <= r) {
             int m = l + (r - l) / 2;
-
             long long time = 0;
             for (int p : piles) {
                 time += (p + m - 1) / m; 
